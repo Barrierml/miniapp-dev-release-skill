@@ -1,4 +1,4 @@
 interface:
-  display_name: "Miniapp Release"
-  short_description: "Build, self-test, upload, and submit WeChat mini programs."
-  default_prompt: "Use $miniapp-release to build, self-test, and upload this WeChat mini program for release."
+  display_name: "Miniapp Dev Release"
+  short_description: "Develop, self-test, upload, and submit WeChat mini programs."
+  default_prompt: "Use $miniapp-dev-release to develop, self-test, and upload this WeChat mini program."

@@ -22,7 +22,7 @@ If the user does not have a Mini Program account, send the account-creation guid
 
 ## Recommended Build-Up Order
 
-1. Create the app shell: `project.config.json`, `app.json`, `app.js`, `app.wxss`.
+1. Create the app shell with `scripts/miniapp_release.sh scaffold-native <project> "<name>"`, or manually create `project.config.json`, `app.json`, `app.js`, `app.wxss`.
 2. Add the first usable page immediately. Avoid a marketing landing page when the request is an app/tool.
 3. Add tabBar or navigation only when there are multiple real workflows.
 4. Add storage or request helpers before pages start duplicating local-state logic.
