@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+coverage/
+dist/
+tmp/
+.tmp/
+*.log
+*.local
+.env
+.env.*
+!.env.example
+project.private.config.json
+miniapp-upload-*.json
